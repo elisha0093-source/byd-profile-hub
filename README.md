@@ -22,3 +22,18 @@
 - 히어로 아래 별도 상담폼과 중복되지 않도록 이미지 전용 구조로 변경
 - `aspect-ratio:16/9` 제거, 원본 가로 비율 그대로 표시
 - 카카오 채팅 URL은 `https://pf.kakao.com/_xlgGSX/chat`
+
+
+## V4 영업 전환형 확장
+- 왜 BYD인가 섹션 추가
+- 차종별 추천 고객 추가
+- 국산 경쟁차 비교 CTA 추가
+- 실구매가/보조금 상담 CTA 추가
+- 상담→시승→견적→계약→출고 프로세스 추가
+- 차명 옆 공식 카탈로그 버튼 추가
+
+### 카탈로그 링크
+- DOLPHIN: BYD Korea 공식 PDF 직접 연결
+- ATTO 3: BYD Korea 공식 PDF 직접 연결
+- SEALION 7: BYD Korea 공식 PDF 직접 연결
+- SEAL / SEALION 6: BYD Korea 공식 모델 페이지의 카탈로그 섹션으로 연결

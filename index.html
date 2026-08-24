@@ -12,34 +12,19 @@
 <body>
 <div class="page">
 <header class="hero hero-visual">
-  <img class="hero-main-image" src="./byd-hero-wide.jpg" alt="BYD DOLPHIN, ATTO 3, SEAL, SEALION 6, SEALION 7 메인 이미지">
+  <img class="hero-main-image" src="./assets/byd-hero-wide.jpg" alt="BYD DOLPHIN, ATTO 3, SEAL, SEALION 6, SEALION 7 메인 이미지">
 </header>
-
-<!-- BYD CONSULTANT QUICK BAR -->
 <div class="consultant-quick-bar">
-
   <div class="consultant-info">
     <strong>김도형 과장</strong>
     <span>BYD 신차 컨설턴트 · 대구·경북 / 전국 비대면 상담</span>
   </div>
-
   <div class="consultant-actions">
-
-    <a href="#consult"
-       class="quick-consult-btn">
-      시승 · 상담 신청
-    </a>
-
-    <a href="https://pf.kakao.com/_xlgGSX/chat"
-       class="quick-kakao-btn"
-       target="_blank"
-       rel="noopener">
-      카카오 1:1 상담
-    </a>
-
+    <a href="#consult" class="quick-consult-btn">시승 · 상담 신청</a>
+    <a href="https://pf.kakao.com/_xlgGSX/chat" class="quick-kakao-btn" target="_blank" rel="noopener">카카오 1:1 상담</a>
   </div>
-
 </div>
+
 
 <section class="quick-lead" id="consult"><div class="section-head"><span>QUICK CONSULTATION</span><h2>시승 · 견적 · 구매상담</h2><p>30초만 입력해 주세요. 확인 후 빠르게 연락드리겠습니다.</p></div>
 <form id="leadForm" novalidate><div class="form-grid"><label><span>이름 *</span><input name="name" autocomplete="name" placeholder="성함" required></label><label><span>연락처 *</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000" required></label><label class="wide"><span>관심차종 *</span><select name="model" required><option value="">차종을 선택하세요</option><option>DOLPHIN</option><option>DOLPHIN Active</option><option>ATTO 3 Plus</option><option>SEAL</option><option>SEAL Plus</option><option>SEAL Dynamic AWD</option><option>SEALION 6 DM-i</option><option>SEALION 7</option><option>SEALION 7 Plus</option><option>아직 미정</option></select></label></div><div class="request-types"><label><input type="radio" name="requestType" value="시승신청" checked><span>시승신청</span></label><label><input type="radio" name="requestType" value="견적요청"><span>견적요청</span></label><label><input type="radio" name="requestType" value="구매상담"><span>구매상담</span></label></div><label class="optional"><span>문의내용 <em>선택</em></span><textarea name="message" rows="3" placeholder="예: 씨라이언6와 쏘렌토 하이브리드 비교 상담 원합니다."></textarea></label><label class="privacy"><input type="checkbox" name="privacy" required><span>개인정보 수집·이용에 동의합니다. <button type="button" id="privacyBtn">내용보기</button></span></label><input type="hidden" name="source" id="sourceField"><input type="hidden" name="pageUrl" id="pageUrlField"><button class="submit" id="submitBtn" type="submit">상담 신청하기</button><p class="status" id="formStatus" aria-live="polite"></p></form></section>
@@ -48,10 +33,77 @@
 
 <section class="value"><div class="section-head"><span>WHY ME</span><h2>차량 설명보다 중요한 건<br>고객에게 맞는 선택입니다.</h2></div><div class="value-grid"><article><b>01</b><h3>차종별 실제 차이 정리</h3><p>가격표만 보는 것이 아니라 주행환경, 충전여건, 가족구성까지 고려해 비교합니다.</p></article><article><b>02</b><h3>시승·견적 한 번에</h3><p>차량 선택 후 시승 일정과 구매조건을 한 흐름으로 안내합니다.</p></article><article><b>03</b><h3>계약 후에도 지속 관리</h3><p>계약이 끝이 아니라 출고 일정, 필요 안내까지 꾸준히 챙겨드립니다.</p></article></div></section>
 
+
+<section class="sales-section why-byd">
+  <div class="section-head">
+    <span>WHY BYD</span>
+    <h2>왜 BYD인가</h2>
+    <p>가격만이 아니라 배터리·플랫폼·효율·안전까지 전기차의 핵심을 직접 만드는 브랜드입니다.</p>
+  </div>
+  <div class="sales-grid four">
+    <article><b>01</b><h3>Blade Battery</h3><p>LFP 기반 블레이드 배터리와 자체 배터리 기술을 중심으로 안전성과 내구성을 강화합니다.</p></article>
+    <article><b>02</b><h3>e-Platform 3.0</h3><p>전기차 전용 플랫폼으로 공간, 열관리, 전력 효율과 주행 성능을 통합 설계합니다.</p></article>
+    <article><b>03</b><h3>8-in-1 파워트레인</h3><p>주요 전장 부품을 통합해 공간 활용과 에너지 효율을 높이는 BYD 핵심 기술입니다.</p></article>
+    <article><b>04</b><h3>EV + DM-i</h3><p>순수 전기차부터 전기 주행 중심의 DM-i까지 사용환경에 맞는 선택 폭을 제공합니다.</p></article>
+  </div>
+</section>
+
 <section id="models" class="models"><div class="section-head"><span>BYD LINE-UP</span><h2>현재 판매 모델</h2><p>고객이 가장 많이 비교하는 핵심 정보만 빠르게 보실 수 있습니다.</p></div><div class="car-list">
-<article class="car-card" data-model="DOLPHIN"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_dolphin/spac_img1_2.png" alt="BYD DOLPHIN" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>DOLPHIN</h3><strong>2,450만원~</strong></div><p>도심 주행과 첫 전기차에 잘 맞는 소형 전기 해치백.</p><div class="spec-strip"><span><b>307~354km</b>1회 충전</span><span><b>49.92~60.48kWh</b>배터리</span><span><b>2,450만원~</b>판매가</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-dolphin" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="ATTO 3 Plus"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_atto3/spec_img1_2.png" alt="BYD ATTO 3 Plus" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>ATTO 3 Plus</h3><strong>3,490만원</strong></div><p>실용성과 편의사양을 균형 있게 갖춘 도심형 C-SUV.</p><div class="spec-strip"><span><b>321km</b>1회 충전</span><span><b>60.48kWh</b>배터리</span><span><b>310Nm</b>최대토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-atto3" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="SEAL"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_seal/spac_img1_2.png" alt="BYD SEAL" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEAL</h3><strong>3,990만원~</strong></div><p>디자인과 주행성능을 중시하는 고객에게 잘 맞는 전기 세단.</p><div class="spec-strip"><span><b>407~449km</b>1회 충전</span><span><b>82.56kWh</b>배터리</span><span><b>3.8초</b>AWD 0→100</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-seal" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card featured" data-model="SEALION 6 DM-i"><div class="recommend-badge">추천 상담 모델</div><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_sealion6/spec_img1_2.png" alt="BYD SEALION 6 DM-i" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEALION 6 DM-i</h3><strong>3,750만원</strong></div><p>전기 주행의 장점과 장거리 편의성을 결합한 DM-i SUV.</p><div class="spec-strip"><span><b>70km</b>EV 주행</span><span><b>15.2km/L</b>복합연비</span><span><b>300Nm</b>모터토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-sealion6" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="SEALION 7"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_sealion7/spac_img1_2.png" alt="BYD SEALION 7" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEALION 7</h3><strong>4,490만원~</strong></div><p>쿠페형 디자인과 공간, 전기 퍼포먼스를 갖춘 중형 SUV.</p><div class="spec-strip"><span><b>398km</b>1회 충전</span><span><b>82.56kWh</b>배터리</span><span><b>380Nm</b>최대토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-sealion7" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article></div></section>
+<article class="car-card" data-model="DOLPHIN"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_dolphin/spac_img1_2.png" alt="BYD DOLPHIN" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>DOLPHIN <a class="catalog-mini" href="https://www.bydauto.kr/static/file/BYD_DOLPHIN_Catalog.pdf" target="_blank" rel="noopener">공식 카탈로그 ↗</a></h3><strong>2,450만원~</strong></div><p>도심 주행과 첫 전기차에 잘 맞는 소형 전기 해치백.</p><div class="spec-strip"><span><b>307~354km</b>1회 충전</span><span><b>49.92~60.48kWh</b>배터리</span><span><b>2,450만원~</b>판매가</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-dolphin" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="ATTO 3 Plus"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_atto3/spec_img1_2.png" alt="BYD ATTO 3 Plus" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>ATTO 3 Plus <a class="catalog-mini" href="https://www.bydauto.kr/static/file/BYD_ATTO_3_Catalog.pdf" target="_blank" rel="noopener">공식 카탈로그 ↗</a></h3><strong>3,490만원</strong></div><p>실용성과 편의사양을 균형 있게 갖춘 도심형 C-SUV.</p><div class="spec-strip"><span><b>321km</b>1회 충전</span><span><b>60.48kWh</b>배터리</span><span><b>310Nm</b>최대토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-atto3" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="SEAL"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_seal/spac_img1_2.png" alt="BYD SEAL" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEAL <a class="catalog-mini" href="https://www.bydauto.kr/car/byd-seal" target="_blank" rel="noopener">공식 카탈로그 ↗</a></h3><strong>3,990만원~</strong></div><p>디자인과 주행성능을 중시하는 고객에게 잘 맞는 전기 세단.</p><div class="spec-strip"><span><b>407~449km</b>1회 충전</span><span><b>82.56kWh</b>배터리</span><span><b>3.8초</b>AWD 0→100</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-seal" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card featured" data-model="SEALION 6 DM-i"><div class="recommend-badge">추천 상담 모델</div><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_sealion6/spec_img1_2.png" alt="BYD SEALION 6 DM-i" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEALION 6 DM-i <a class="catalog-mini" href="https://www.bydauto.kr/car/byd-sealion6" target="_blank" rel="noopener">공식 카탈로그 ↗</a></h3><strong>3,750만원</strong></div><p>전기 주행의 장점과 장거리 편의성을 결합한 DM-i SUV.</p><div class="spec-strip"><span><b>70km</b>EV 주행</span><span><b>15.2km/L</b>복합연비</span><span><b>300Nm</b>모터토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-sealion6" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article><article class="car-card" data-model="SEALION 7"><div class="car-image"><img src="https://www.bydauto.kr/static/images/model/byd_sealion7/spac_img1_2.png" alt="BYD SEALION 7" loading="lazy"></div><div class="car-body"><div class="car-title"><h3>SEALION 7 <a class="catalog-mini" href="https://www.bydauto.kr/static/file/BYD_SEALION_7_Catalog.pdf" target="_blank" rel="noopener">공식 카탈로그 ↗</a></h3><strong>4,490만원~</strong></div><p>쿠페형 디자인과 공간, 전기 퍼포먼스를 갖춘 중형 SUV.</p><div class="spec-strip"><span><b>398km</b>1회 충전</span><span><b>82.56kWh</b>배터리</span><span><b>380Nm</b>최대토크</span></div><div class="model-actions"><button class="model-consult" type="button">이 차 상담하기</button><a href="https://www.bydauto.kr/car/byd-sealion7" target="_blank" rel="noopener">공식정보 ↗</a></div></div></article></div></section>
 <section class="compare"><div class="section-head"><span>HOW I HELP</span><h2>이런 비교도 도와드립니다.</h2></div><div class="compare-list"><button class="quick-question" data-message="SEALION 6와 쏘렌토 하이브리드 비교 상담 원합니다.">SEALION 6 vs 쏘렌토 HEV</button><button class="quick-question" data-message="ATTO 3와 국산 전기 SUV 비교 상담 원합니다.">ATTO 3 vs 국산 전기 SUV</button><button class="quick-question" data-message="DOLPHIN 실구매가와 보조금 상담 원합니다.">DOLPHIN 실구매가</button><button class="quick-question" data-message="SEAL과 아이오닉6 비교 상담 원합니다.">SEAL vs 아이오닉6</button></div></section>
 <section class="process"><div class="section-head"><span>PROCESS</span><h2>상담부터 출고까지</h2></div><ol><li><b>01</b><div><strong>상담 신청</strong><span>관심차종·예산·사용용도 확인</span></div></li><li><b>02</b><div><strong>차종 비교</strong><span>가격·주행거리·옵션·충전환경 비교</span></div></li><li><b>03</b><div><strong>시승·견적</strong><span>시승 일정 및 구매조건 안내</span></div></li><li><b>04</b><div><strong>계약·출고</strong><span>계약 후 출고까지 지속 관리</span></div></li></ol></section>
+
+<section class="sales-section fit-guide">
+  <div class="section-head">
+    <span>MODEL FIT</span>
+    <h2>어떤 고객에게 맞을까요?</h2>
+  </div>
+  <div class="fit-list">
+    <div><strong>DOLPHIN</strong><span>도심 출퇴근 · 첫 전기차 · 합리적인 예산을 중시하는 고객</span></div>
+    <div><strong>ATTO 3</strong><span>SUV 실용성 · 가족용 · 편의사양을 균형 있게 원하는 고객</span></div>
+    <div><strong>SEAL</strong><span>전기 세단 · 주행성능 · 디자인과 퍼포먼스를 중시하는 고객</span></div>
+    <div><strong>SEALION 6 DM-i</strong><span>장거리 주행 · 충전 부담 완화 · 하이브리드 SUV 대안을 찾는 고객</span></div>
+    <div><strong>SEALION 7</strong><span>중형 전기 SUV · 공간 · 고급감과 쿠페형 스타일을 원하는 고객</span></div>
+  </div>
+</section>
+
+<section class="sales-section compare-sales">
+  <div class="section-head">
+    <span>COMPARE</span>
+    <h2>국산 경쟁차와 비교 상담</h2>
+    <p>단순 우열이 아니라 예산, 주행거리, 공간, 충전환경 기준으로 함께 비교합니다.</p>
+  </div>
+  <div class="compare-cards">
+    <button class="quick-question" data-message="SEALION 6와 스포티지/쏘렌토 하이브리드 비교 상담 원합니다."><strong>SEALION 6</strong><span>vs 스포티지 HEV · 쏘렌토 HEV</span></button>
+    <button class="quick-question" data-message="SEALION 7과 아이오닉5/EV6 비교 상담 원합니다."><strong>SEALION 7</strong><span>vs 아이오닉 5 · EV6</span></button>
+    <button class="quick-question" data-message="ATTO 3와 EV3/코나 일렉트릭 비교 상담 원합니다."><strong>ATTO 3</strong><span>vs EV3 · 코나 Electric</span></button>
+    <button class="quick-question" data-message="SEAL과 아이오닉6 비교 상담 원합니다."><strong>SEAL</strong><span>vs 아이오닉 6</span></button>
+  </div>
+</section>
+
+<section class="sales-section subsidy-cta">
+  <div>
+    <span>실구매가 · 보조금</span>
+    <h2>내 지역 기준 실제 구매금액을 확인하세요.</h2>
+    <p>차량가격, 지역별 보조금, 시점별 프로모션을 반영해 상담 시 최신 기준으로 안내합니다.</p>
+  </div>
+  <a href="#consult">실구매가 상담</a>
+</section>
+
+<section class="sales-section delivery">
+  <div class="section-head">
+    <span>DELIVERY PROCESS</span>
+    <h2>상담부터 출고까지</h2>
+  </div>
+  <div class="delivery-steps">
+    <div><b>01</b><strong>상담</strong><span>차종·예산·주행환경 확인</span></div>
+    <div><b>02</b><strong>시승</strong><span>희망 모델 시승 일정 조율</span></div>
+    <div><b>03</b><strong>견적</strong><span>가격·보조금·구매조건 안내</span></div>
+    <div><b>04</b><strong>계약</strong><span>계약 및 필요 서류 안내</span></div>
+    <div><b>05</b><strong>출고</strong><span>출고 일정과 차량 인도 관리</span></div>
+  </div>
+</section>
+
 <section class="faq"><div class="section-head"><span>FAQ</span><h2>자주 묻는 질문</h2></div><details><summary>전기차가 처음인데 어떤 차부터 봐야 하나요?</summary><p>주행거리, 충전환경, 가족구성, 예산부터 확인하면 선택 폭을 빠르게 줄일 수 있습니다.</p></details><details><summary>보조금까지 포함한 실구매가도 상담 가능한가요?</summary><p>가능합니다. 지역과 차량에 따라 달라질 수 있으므로 최신 기준으로 확인해 안내합니다.</p></details><details><summary>시승만 먼저 해봐도 되나요?</summary><p>네. 구매 결정 전 차량의 승차감과 공간을 직접 확인하는 것을 권합니다.</p></details><details><summary>비대면 상담도 가능한가요?</summary><p>전화, 문자, 카카오톡을 통해 전국 비대면 상담도 가능합니다.</p></details></section>
 <section class="contact" id="contact"><div class="section-head"><span>DIRECT CONTACT</span><h2>편한 방법으로 연락주세요.</h2></div><div class="contact-grid"><a id="callBtn" href="#">전화하기</a><a id="smsBtn" href="#">문자하기</a><a id="kakaoBtn" href="#" target="_blank" rel="noopener">카카오 상담</a></div></section>
 <section class="final-cta"><div><span>BYD 구매를 고민 중이라면</span><h2>차량부터 정하지 않아도 됩니다.</h2><p>사용환경과 예산을 알려주시면 맞는 차부터 함께 비교해드리겠습니다.</p></div><a href="#consult">무료 상담 신청</a></section>
